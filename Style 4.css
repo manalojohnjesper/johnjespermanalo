@@ -1,0 +1,454 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;}
+
+
+a  {text-decoration: none;}
+
+
+.container  {display: flex;}
+
+.bold{
+color: black;
+font-family: 'Hind', sans-serif;
+font-weight: 700;}
+
+
+h1{
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1;
+    margin: 0;}
+
+
+.web{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 18px;
+    color: #ffffff;}
+
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(My\ Pic.jpeg);
+    background-size: cover;
+    background-position: center ;
+    filter: brightness(80%);}
+   
+
+.name{
+    color:white;
+    position: absolute;
+    text-align: center;
+    bottom: 13%; 
+    width: 100%;}
+
+
+.left{
+  width: 50%;
+  height: 100%;
+  position: fixed;}
+
+
+button{
+    width: 34px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.47);
+    height:34px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s;
+    line-height: 30px;
+    font-weight: 500;}
+
+
+button:hover{
+    background-color: rgba(241, 232, 232, 0.523) ;
+    border: 2px solid rgb(248, 242, 242);}
+
+
+.button2{
+    width: 34px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.47);
+    height:34px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s;
+    line-height: 30px;
+    font-weight: 500;}
+
+
+.button2:hover{
+    background-color: rgba(241, 232, 232, 0.523) ;
+    border: 2px solid rgb(248, 242, 242);}
+
+
+/*Right Column*/
+.main-right{
+ 
+    width: 50%;
+    position: absolute;
+    right: 0   ;
+    box-shadow: -10px -10px 30px rgba(35, 36, 33, 0.73);}
+
+.padding-right{
+    padding:70px;
+    background-color: #fff7f7;}
+
+
+p{
+  color: rgb(96, 85, 85) ;
+  line-height:27px;
+  font-size:15px;
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  color: #3d3d50;
+  font-weight: 300;}
+
+
+.head{
+  color: darkgray;
+  font-size: 18px;
+  line-height: 1.8em;
+  font-weight: 800;
+  font-family: 'Hind', sans-serif;}
+
+/* Skills & Expertise */
+.skills {padding:40px;}
+
+
+
+/* Work Experiences */
+.work{
+     padding:70px;
+     background-color: #fff7f7;}
+
+
+
+.date{
+    font-size: 13px;
+    line-height:10px;
+    font-family: 'Hind', sans-serif;}
+    
+
+.bold2{
+    line-height:10px;
+    color: black;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;}
+
+.street{
+    color: black;
+    font-size: 17px;
+    line-height:10px;}
+
+.word2{
+    color: rgb(96, 85, 85) ;
+    font-size:15px;
+    line-height:10px;}
+
+
+/* Education */
+.education{
+     padding:70px;}
+
+.date2{
+    font-size: 15px;}
+
+.school{
+    padding-left: 50px;
+    text-align: center;}
+
+.word3{
+    color: rgb(96, 85, 85) ;
+    font-size:15px;
+    text-align: center;}
+
+
+/*Previous Work*/
+.previous{
+
+    background-color: #fff7f7;
+    height: 100px;
+    width: 70%;}
+
+
+.previous2{
+    padding-top: 20px;
+    background-color: #fff7f7;
+    height: 1500px;}
+
+
+.head2{
+     color: darkgray;
+  font-size: 18px;
+  line-height: 1.8em;
+  font-weight: 800;
+  font-family: 'Hind', sans-serif;
+  left: 70px;
+  position: relative;}
+
+
+/* DELTA */ 
+.deltaimage{
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 304px;
+    position: absolute;
+    left:50px ;
+    padding-top: 1px;
+    filter: brightness(70%);}
+
+
+.deltaname{
+    position: relative;
+    left: 60px;
+    top: 250px;
+    color: #ffffff;
+    font-weight: 750;
+    width: 75%;
+    text-align: center;}
+
+
+
+.deltasite{
+    position: relative;
+    left: 60px;
+    top: 230px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 5px;}
+
+
+.deltasite:hover{
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+           
+            rgba(32, 34, 45, 0.758) 100%
+    );
+    }
+
+
+/* TYCO */
+.tycoimage{
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 304px;
+    position: absolute;
+    left:50px ;
+    filter: brightness(75%);
+    bottom: 752px;}   
+
+
+.tyconame{
+    position: relative;
+    left: 60px;
+    color: #ffffff;
+    font-weight: 750;
+    width: 75%;
+    text-align: center;
+    top: 490px;}
+
+
+.tycosite{
+    position: relative;
+    left: 60px;
+     color: #ffffff;
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 5px;
+    top: 470px;}
+
+
+.tycosite:hover{
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+           
+            rgba(32, 34, 45, 0.758) 100%
+    );
+    }
+
+
+/* IBIDEN */
+.ibidenimage{
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 304px;
+    position: absolute;
+    left:50px ;
+    filter: brightness(80%);
+    bottom: 424px;}
+
+
+.ibidenname{
+    position: relative;
+    left: 60px;
+    color: #ffffff;
+    font-weight: 750;
+    width: 75%;
+    text-align: center;
+    top: 729px;}
+
+
+.ibidensite{
+    position: relative;
+    left: 60px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 5px;
+    top: 710px;}
+
+
+.ibidensite:hover{
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+           
+            rgba(32, 34, 45, 0.758) 100%
+    );
+    }
+
+
+    /* Citimart */
+.citiimage{
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 304px;
+    position: absolute;
+    left:50px ;
+    filter: brightness(80%);
+     bottom: 95px;}
+
+
+.citiname{
+    position: relative;
+    left: 60px;
+    color: #ffffff;
+    font-weight: 750;
+    width: 75%;
+    text-align: center;
+    top: 967px;}
+
+
+.citisite{
+    position: relative;
+    left: 60px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 5px;
+    top: 948px;}
+
+
+.citisite:hover{
+    background : -webkit-linear-gradient(
+            top,
+            transparent 0%,
+           
+            rgba(32, 34, 45, 0.758) 100%
+    );
+    }
+ 
+
+
+     
+    
+
+
+/* Max View 905px*/
+@media (max-width: 905px) {
+    /* Work Experience */
+   .bold2 {line-height:20px;}
+ 
+   .street {line-height:20px;}
+
+   .word2  {line-height:20px;}
+   /* Education */
+   
+ }
+
+
+
+
+
+
+/* Max View 600px*/
+@media (max-width: 600px) {
+    .container{
+        display: block;
+        flex-direction: column; /* Stack columns vertically */
+        
+    }
+    .left {
+        height: 100%;
+        width: 100%;
+        position: static;
+
+    }
+    .image{
+        
+        background-repeat: no-repeat;
+        background-image: url(My\ Pic.jpeg);
+        width: 100%;
+        height: 100%;
+    }
+    .main-right{
+        width: 100%;
+    }
+    /* Work Experience */
+    .word2{
+        line-height:17px ;
+    }
+    
+    /*Education*/
+    
+    .date2{
+        line-height:17px ;
+    }
+    .school{
+        line-height:17px;
+    }
+    .word3{
+        line-height:17px;
+    }
+   
+  
+ }
+/* Max View 330px*/
+ @media (max-width:330px){
+    .date{
+       line-height:20px;
+    }
+    .bold2{
+         line-height:20px;
+    }
+    .word2{
+         line-height:20px;
+    }
+    .street{
+   line-height:20px;
+
+ }
+ }
